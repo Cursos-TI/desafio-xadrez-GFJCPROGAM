@@ -26,6 +26,23 @@ int main() {
         
     }while(k < 8);
         
-    
+    //Definição das constantes para o movimento do cavalo
+        int casasBaixo=2; //quantidade de casas para baixo
+        int casasEsquerda=1; //quantidade de casas para a esquerda
+
+    //Movimentação do cavalo
+        printf("\nMovimentação do Cavalo:\n");
+        for (int i = 0; i < casasBaixo; i++)
+        {   printf("Baixo\n"); //Movimento para baixo
+        }
+
+    //Um loop com do-while para o movimento para a esquerda
+        int j = 0;
+        do {
+            printf("Esquerda\n"); //Movimento para a esquerda
+            j++;
+        }
+            while (j < casasEsquerda);
+
     return 0;
 }
