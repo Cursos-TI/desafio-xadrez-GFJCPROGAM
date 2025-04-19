@@ -4,7 +4,8 @@
 int main() {
     // Movimentação da Torre: 05 casas para a diretira
     printf("Moniventação da Torre:\n");
-    for (int i = 0; i < 5; i++);{
+    for (int i = 0; i < 5; i++)
+    {
     printf("Direita\n");
     }
     
@@ -32,17 +33,17 @@ int main() {
 
     //Movimentação do cavalo
         printf("\nMovimentação do Cavalo:\n");
-        for (int i = 0; i < casasBaixo; i++)
+        for (int l = 0; l < casasBaixo; l++)
         {   printf("Baixo\n"); //Movimento para baixo
         }
 
-    //Um loop com do-while para o movimento para a esquerda
-        int j = 0;
+    //Um loop aninhado com do-while para o movimento para a esquerda
+        int m = 0;
         do {
             printf("Esquerda\n"); //Movimento para a esquerda
-            j++;
+            m++;
         }
-            while (j < casasEsquerda);
+            while (m < casasEsquerda);
 
     return 0;
 }
